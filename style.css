@@ -1,0 +1,96 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  /* added background color section 4.1 */
+  background-color: #eae2b7;
+}
+
+/* center aligned the header and nav bar section 4.2 8 */
+header {
+  text-align: center;
+}
+
+nav {
+  
+}
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  /* centered all the heading texts */
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", Times, serif;
+  /* centered all the heading texts */
+  text-align: center;
+  font-size: 24px;
+}
+article {
+  padding: 50px 0;
+}
+
+ul {
+  font-size: 14px; 
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 500px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+/* this completes section 1.3 */
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+/* anchor tags completes section 4.3 */
+a {
+  font-size: 14px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+a:link {color: #d62828;}
+a:visited {color: #d62828;}
+a:hover{color: #f77f00;}
+
+/* alligning the footer 4.2 */
+footer {
+  text-align: center;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  font-size: 14px;
+}
+
+
